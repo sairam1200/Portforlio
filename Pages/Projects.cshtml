@@ -1,0 +1,128 @@
+@page
+@{
+    ViewData["Title"] = "Projects";
+}
+
+<div class="container py-5 projects-page">
+    <div class="row">
+        <div class="col-12">
+            <header class="text-center mb-5">
+                <h1 class="display-4 fw-bold mb-3">Featured Projects</h1>
+                <p class="lead text-muted">Showcasing my technical expertise through innovative solutions</p>
+            </header>
+        </div>
+    </div>
+
+    <div class="projects-grid">
+        <!-- Cloud Developer Project -->
+        <div class="project-card">
+            <div class="card-body">
+                <div class="project-header">
+                    <h3 class="project-title">Cloud Developer</h3>
+                </div>
+                <p class="project-description">
+                    Developed and containerized a Java application using Docker, created virtual machines, storage, and VPC networks on AWS.
+                </p>
+                <div class="project-details">
+                    <p>Implemented scalable cloud architecture with AWS services including computing, storage, database, autoscaling, load balancing, and EMR. Monitored application metrics using CloudWatch.</p>
+                </div>
+                <div class="tech-stack">
+                    <span class="tech-badge">AWS</span>
+                    <span class="tech-badge">Docker</span>
+                    <span class="tech-badge">Java</span>
+                    <span class="tech-badge">CloudWatch</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Machine Learning Thesis -->
+        <div class="project-card">
+            <div class="card-body">
+                <div class="project-header">
+                    <h3 class="project-title">Bachelor's Thesis in Machine Learning</h3>
+                </div>
+                <p class="project-description">
+                    Developed machine learning models for waste classification using CNN architectures, achieving state-of-the-art accuracy.
+                </p>
+                <div class="project-details">
+                    <p>Compared MobileNet, DenseNet, ResNet, and VGG architectures. Improved classification precision by 20% through hyperparameter tuning and optimization, contributing to sustainable waste management solutions.</p>
+                </div>
+                <div class="tech-stack">
+                    <span class="tech-badge">Python</span>
+                    <span class="tech-badge">TensorFlow</span>
+                    <span class="tech-badge">Keras</span>
+                    <span class="tech-badge">Scikit-Learn</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Machine Vision Project -->
+        <div class="project-card">
+            <div class="card-body">
+                <div class="project-header">
+                    <h3 class="project-title">Machine Vision & Image Processing</h3>
+                </div>
+                <p class="project-description">
+                    Built advanced computer vision systems for object detection, measurement, and defect identification.
+                </p>
+                <div class="project-details">
+                    <p>Implemented needle size detection, color analysis, rotation tracking, and defect identification. Created live detection systems using Aruco markers and real-time object analysis with OpenCV and NumPy.</p>
+                </div>
+                <div class="tech-stack">
+                    <span class="tech-badge">Python</span>
+                    <span class="tech-badge">OpenCV</span>
+                    <span class="tech-badge">TensorFlow</span>
+                    <span class="tech-badge">NumPy</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- PLC Programming Project -->
+        <div class="project-card">
+            <div class="card-body">
+                <div class="project-header">
+                    <h3 class="project-title">PLC Programming with Big Data</h3>
+                </div>
+                <p class="project-description">
+                    Developed an automated AGV system with real-time safety monitoring and HMI interface.
+                </p>
+                <div class="project-details">
+                    <p>Built REST APIs for AGV movement automation between checkpoints. Implemented safety logic using environmental data (temperature, humidity, damage status) with SQLite/PostgreSQL backend and real-time HMI visualization.</p>
+                </div>
+                <div class="tech-stack">
+                    <span class="tech-badge">Python</span>
+                    <span class="tech-badge">REST APIs</span>
+                    <span class="tech-badge">SQLite</span>
+                    <span class="tech-badge">PostgreSQL</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Automation Engineering Thesis -->
+        <div class="project-card">
+            <div class="card-body">
+                <div class="project-header">
+                    <h3 class="project-title">Master's Thesis - Automation Engineering</h3>
+                </div>
+                <p class="project-description">
+                    Created an autonomous orchard monitoring system using machine vision and deep learning.
+                </p>
+                <div class="project-details">
+                    <p>Developed tree structure mapping and fruit distribution analysis for autonomous pruning and harvesting. Integrated RGB-D cameras (Kinect v1) and optical sensors for real-time plant health monitoring.</p>
+                </div>
+                <div class="tech-stack">
+                    <span class="tech-badge">Python</span>
+                    <span class="tech-badge">OpenCV</span>
+                    <span class="tech-badge">TensorFlow</span>
+                    <span class="tech-badge">RGB-D Cameras</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center mt-5">
+        <a class="btn btn-primary btn-lg" asp-page="/Index">
+            <span class="btn-icon">←</span> Back to Portfolio
+        </a>
+    </div>
+</div>

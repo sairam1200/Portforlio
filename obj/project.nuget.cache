@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "iw0kfInFHtw=",
+  "success": true,
+  "projectFilePath": "E:\\dotnetPortforlio\\MyPortforlioWebsite\\MyPortforlioWebsite.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\saira\\.nuget\\packages\\openai\\2.10.0\\openai.2.10.0.nupkg.sha512",
+    "C:\\Users\\saira\\.nuget\\packages\\system.clientmodel\\1.10.0\\system.clientmodel.1.10.0.nupkg.sha512",
+    "C:\\Users\\saira\\.nuget\\packages\\system.memory.data\\10.0.3\\system.memory.data.10.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
