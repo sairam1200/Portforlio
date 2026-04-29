@@ -121,3 +121,17 @@ E:\dotnetPortforlio\MyPortforlioWebsite\bin\Debug\net10.0\publish\MyPortforlioWe
 E:\dotnetPortforlio\MyPortforlioWebsite\bin\Debug\net10.0\publish\MyPortforlioWebsite.staticwebassets.endpoints.json
 E:\dotnetPortforlio\MyPortforlioWebsite\obj\Debug\net10.0\MyPortforlioWebsite.sourcelink.json
 E:\dotnetPortforlio\MyPortforlioWebsite\obj\Debug\net10.0\compressed\5fg01eay73-{0}-mhh5qkkwkr-mhh5qkkwkr.gz
+E:\dotnetPortforlio\MyPortforlioWebsite\bin\Debug\net10.0\nuget.config
+E:\dotnetPortforlio\MyPortforlioWebsite\bin\Debug\net10.0\out\nuget.config
+E:\dotnetPortforlio\MyPortforlioWebsite\bin\Debug\net10.0\out\publish\web.config
+E:\dotnetPortforlio\MyPortforlioWebsite\bin\Debug\net10.0\out\web.config
+E:\dotnetPortforlio\MyPortforlioWebsite\bin\Debug\net10.0\out\appsettings.Development.json
+E:\dotnetPortforlio\MyPortforlioWebsite\bin\Debug\net10.0\out\appsettings.json
+E:\dotnetPortforlio\MyPortforlioWebsite\bin\Debug\net10.0\out\MyPortforlioWebsite.deps.json
+E:\dotnetPortforlio\MyPortforlioWebsite\bin\Debug\net10.0\out\MyPortforlioWebsite.runtimeconfig.json
+E:\dotnetPortforlio\MyPortforlioWebsite\bin\Debug\net10.0\out\MyPortforlioWebsite.staticwebassets.endpoints.json
+E:\dotnetPortforlio\MyPortforlioWebsite\bin\Debug\net10.0\out\publish\appsettings.Development.json
+E:\dotnetPortforlio\MyPortforlioWebsite\bin\Debug\net10.0\out\publish\appsettings.json
+E:\dotnetPortforlio\MyPortforlioWebsite\bin\Debug\net10.0\out\publish\MyPortforlioWebsite.deps.json
+E:\dotnetPortforlio\MyPortforlioWebsite\bin\Debug\net10.0\out\publish\MyPortforlioWebsite.runtimeconfig.json
+E:\dotnetPortforlio\MyPortforlioWebsite\bin\Debug\net10.0\out\publish\MyPortforlioWebsite.staticwebassets.endpoints.json
