@@ -27,10 +27,14 @@ namespace YourApp.Controllers
                 stream = false
             };
             
-            var response = await _httpClient.PostAsJsonAsync(
-                "https://almost-backtrack-drapery.ngrok-free.dev/api/chat",
-                ollamaRequest
-            );
+            var client = new HttpClient();
+client.DefaultRequestHeaders.Add("ngrok-skip-browser-warning", "true");
+client.DefaultRequestHeaders.Add("User-Agent", "MyPortfolioApp");
+
+var response = await client.PostAsJsonAsync(
+    "https://almost-backtrack-drapery.ngrok-free.dev/api/chat",
+    requestBody
+);
 
             var json = await response.Content.ReadAsStringAsync();
 
