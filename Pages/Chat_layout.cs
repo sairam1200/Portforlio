@@ -28,7 +28,7 @@ namespace YourApp.Controllers
             };
             
             var response = await _httpClient.PostAsJsonAsync(
-                "http://localhost:11434/api/chat",
+                "https://almost-backtrack-drapery.ngrok-free.dev/api/chat",
                 ollamaRequest
             );
 
