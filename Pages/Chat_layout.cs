@@ -4,16 +4,9 @@ using System.Text.Json;
 namespace YourApp.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]   // 🔥 CHANGE THIS
+    [Route("api/[controller]")]
     public class ChatController : ControllerBase
     {
-        private readonly HttpClient _httpClient;
-
-        public ChatController(IHttpClientFactory factory)
-        {
-            _httpClient = factory.CreateClient();
-        }
-
         [HttpPost("GetResponse")]
         public async Task<IActionResult> GetResponse([FromBody] ChatRequest request)
         {
@@ -26,20 +19,22 @@ namespace YourApp.Controllers
                 },
                 stream = false
             };
-            
-            var client = new HttpClient();
+
+            // ✅ Use client WITH headers (not _httpClient)
+            using var client = new HttpClient();
             client.DefaultRequestHeaders.Add("ngrok-skip-browser-warning", "true");
             client.DefaultRequestHeaders.Add("User-Agent", "MyPortfolioApp");
 
-            var response = await _httpClient.PostAsJsonAsync(
-                "https://almost-backtrack-drapery.ngrok-free.dev/api/chat",
+            var ollamaUrl = Environment.GetEnvironmentVariable("OLLAMA_URL") 
+                            ?? "http://localhost:11434";
+
+            var response = await client.PostAsJsonAsync(
+                $"{ollamaUrl}/api/chat",  // ✅ Using client, not _httpClient
                 ollamaRequest
             );
 
             var json = await response.Content.ReadAsStringAsync();
-
             var result = JsonSerializer.Deserialize<OllamaResponse>(json);
-
             string reply = result?.message?.content ?? "No response";
 
             return Ok(new { reply });
