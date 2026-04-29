@@ -1,6 +1,9 @@
+[phases.setup]
+nixPkgs = ["dotnet-sdk_9"]
+
 [phases.build]
 cmds = [
-  "dotnet restore",
+  "dotnet restore MyPortforlioWebsite.sln",
   "dotnet publish MyPortforlioWebsite.csproj -c Release -o out"
 ]
 
