@@ -25,7 +25,7 @@ namespace YourApp.Controllers
             client.DefaultRequestHeaders.Add("ngrok-skip-browser-warning", "true");
             client.DefaultRequestHeaders.Add("User-Agent", "MyPortfolioApp");
 
-            var ollamaUrl = Environment.GetEnvironmentVariable("OLLAMA_URL") 
+            var ollamaUrl = Environment.GetEnvironmentVariable("OLLAMA_URL = https://almost-backtrack-drapery.ngrok-free.dev") 
                             ?? "http://localhost:11434";
 
             var response = await client.PostAsJsonAsync(
