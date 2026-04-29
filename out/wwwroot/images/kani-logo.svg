@@ -1,0 +1,25 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="kaniGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6B35;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF5722;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="95" fill="url(#kaniGradient)" stroke="#fff" stroke-width="2"/>
+
+  <!-- Letter K -->
+  <path d="M50 50 L50 150 L70 150 L70 100 L90 130 L110 100 L90 70 L70 100 L70 50 Z" fill="white"/>
+
+  <!-- Letter A -->
+  <path d="M120 150 L130 50 L140 50 L150 150 L160 150 L155 130 L145 90 L135 130 L125 150 Z" fill="white"/>
+  <rect x="135" y="110" width="10" height="2" fill="white"/>
+
+  <!-- Letter N -->
+  <path d="M170 150 L180 50 L190 50 L190 130 L200 150 L210 150 L205 130 L195 70 L185 130 L175 150 Z" fill="white"/>
+
+  <!-- Letter I -->
+  <rect x="220" y="50" width="10" height="100" fill="white"/>
+</svg></content>
+<parameter name="filePath">e:\dotnetPortforlio\MyPortforlioWebsite\wwwroot\images\kani-logo.svg

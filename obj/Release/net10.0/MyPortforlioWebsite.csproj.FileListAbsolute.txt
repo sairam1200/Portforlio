@@ -115,3 +115,10 @@ E:\dotnetPortforlio\MyPortforlioWebsite\obj\Release\net10.0\refint\MyPortforlioW
 E:\dotnetPortforlio\MyPortforlioWebsite\obj\Release\net10.0\MyPortforlioWebsite.pdb
 E:\dotnetPortforlio\MyPortforlioWebsite\obj\Release\net10.0\MyPortforlioWebsite.genruntimeconfig.cache
 E:\dotnetPortforlio\MyPortforlioWebsite\obj\Release\net10.0\ref\MyPortforlioWebsite.dll
+E:\dotnetPortforlio\MyPortforlioWebsite\bin\Release\net10.0\nuget.config
+E:\dotnetPortforlio\MyPortforlioWebsite\bin\Release\net10.0\publish\web.config
+E:\dotnetPortforlio\MyPortforlioWebsite\bin\Release\net10.0\publish\appsettings.Development.json
+E:\dotnetPortforlio\MyPortforlioWebsite\bin\Release\net10.0\publish\appsettings.json
+E:\dotnetPortforlio\MyPortforlioWebsite\bin\Release\net10.0\publish\MyPortforlioWebsite.deps.json
+E:\dotnetPortforlio\MyPortforlioWebsite\bin\Release\net10.0\publish\MyPortforlioWebsite.runtimeconfig.json
+E:\dotnetPortforlio\MyPortforlioWebsite\bin\Release\net10.0\publish\MyPortforlioWebsite.staticwebassets.endpoints.json

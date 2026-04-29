@@ -158,6 +158,7 @@
       "outputPath": "E:\\dotnetPortforlio\\MyPortforlioWebsite\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
+        "E:\\dotnetPortforlio\\MyPortforlioWebsite\\NuGet.Config",
         "C:\\Users\\saira\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
