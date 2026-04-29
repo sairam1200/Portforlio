@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MyPortforlioWebsite")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+79a8dc9cd46e6a5285c82362172cfd5faa9a02ab")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b3c626080e2f7559084cdec70b348c33b4cbdbe7")]
 [assembly: System.Reflection.AssemblyProductAttribute("MyPortforlioWebsite")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MyPortforlioWebsite")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
