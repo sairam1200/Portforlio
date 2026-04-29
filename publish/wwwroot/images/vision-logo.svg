@@ -1,0 +1,29 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="visionGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#06B6D4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0891B2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="95" fill="url(#visionGradient)" stroke="#fff" stroke-width="2"/>
+
+  <!-- Camera body -->
+  <rect x="75" y="85" width="50" height="30" fill="white" rx="5"/>
+  <circle cx="95" cy="100" r="12" fill="url(#visionGradient)"/>
+  <circle cx="95" cy="100" r="8" fill="white"/>
+  <circle cx="95" cy="100" r="4" fill="url(#visionGradient)"/>
+
+  <!-- Lens flare -->
+  <line x1="95" y1="70" x2="95" y2="78" stroke="white" stroke-width="2"/>
+  <line x1="115" y1="100" x2="123" y2="100" stroke="white" stroke-width="2"/>
+  <line x1="95" y1="122" x2="95" y2="130" stroke="white" stroke-width="2"/>
+  <line x1="67" y1="100" x2="75" y2="100" stroke="white" stroke-width="2"/>
+
+  <!-- Viewfinder -->
+  <rect x="80" y="90" width="30" height="20" fill="none" stroke="url(#visionGradient)" stroke-width="2" rx="2"/>
+  <circle cx="85" cy="95" r="2" fill="url(#visionGradient)"/>
+  <circle cx="105" cy="105" r="2" fill="url(#visionGradient)"/>
+</svg></content>
+<parameter name="filePath">e:\dotnetPortforlio\MyPortforlioWebsite\wwwroot\images\vision-logo.svg

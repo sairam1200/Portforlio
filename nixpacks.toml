@@ -1,0 +1,8 @@
+[phases.build]
+cmds = [
+  "dotnet restore",
+  "dotnet publish MyPortforlioWebsite.csproj -c Release -o out"
+]
+
+[start]
+cmd = "dotnet out/MyPortforlioWebsite.dll"

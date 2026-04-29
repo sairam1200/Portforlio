@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v10.0": {
       "MyPortforlioWebsite/1.0.0": {
         "dependencies": {
-          "OpenAI": "2.10.0"
+          "OpenAI": "2.10.0",
+          "System.ClientModel": "1.10.0"
         },
         "runtime": {
           "MyPortforlioWebsite.dll": {}

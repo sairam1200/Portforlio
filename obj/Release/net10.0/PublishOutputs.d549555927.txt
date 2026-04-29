@@ -1,0 +1,10 @@
+E:\dotnetPortforlio\MyPortforlioWebsite\publish\MyPortforlioWebsite.exe
+E:\dotnetPortforlio\MyPortforlioWebsite\publish\appsettings.Development.json
+E:\dotnetPortforlio\MyPortforlioWebsite\publish\appsettings.json
+E:\dotnetPortforlio\MyPortforlioWebsite\publish\MyPortforlioWebsite.dll
+E:\dotnetPortforlio\MyPortforlioWebsite\publish\MyPortforlioWebsite.deps.json
+E:\dotnetPortforlio\MyPortforlioWebsite\publish\MyPortforlioWebsite.runtimeconfig.json
+E:\dotnetPortforlio\MyPortforlioWebsite\publish\MyPortforlioWebsite.pdb
+E:\dotnetPortforlio\MyPortforlioWebsite\publish\OpenAI.dll
+E:\dotnetPortforlio\MyPortforlioWebsite\publish\System.ClientModel.dll
+E:\dotnetPortforlio\MyPortforlioWebsite\publish\System.Memory.Data.dll

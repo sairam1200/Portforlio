@@ -1,0 +1,8 @@
+[build]
+builder = "NIXPACKS"
+
+[build.nixpacksPlan.phases.setup]
+nixPkgs = ["dotnet-sdk_10"]
+
+[deploy]
+startCommand = "dotnet MyPortforlioWebsite.dll"

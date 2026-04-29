@@ -141,7 +141,8 @@
   },
   "projectFileDependencyGroups": {
     "net10.0": [
-      "OpenAI >= 2.10.0"
+      "OpenAI >= 2.10.0",
+      "System.ClientModel >= 1.10.0"
     ]
   },
   "packageFolders": {
@@ -190,6 +191,10 @@
           "OpenAI": {
             "target": "Package",
             "version": "[2.10.0, )"
+          },
+          "System.ClientModel": {
+            "target": "Package",
+            "version": "[1.10.0, )"
           }
         },
         "imports": [

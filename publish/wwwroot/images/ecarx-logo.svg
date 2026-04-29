@@ -1,0 +1,37 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ecarxGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0052CC;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#003D99;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="95" fill="url(#ecarxGradient)" stroke="#fff" stroke-width="2"/>
+
+  <!-- Letter E -->
+  <rect x="50" y="60" width="15" height="80" fill="white"/>
+  <rect x="50" y="60" width="40" height="15" fill="white"/>
+  <rect x="50" y="95" width="35" height="15" fill="white"/>
+  <rect x="50" y="130" width="40" height="15" fill="white"/>
+
+  <!-- Letter C -->
+  <path d="M95 60 L95 145 L110 145 L125 130 L125 75 L110 60 Z" fill="white"/>
+  <rect x="95" y="60" width="15" height="15" fill="url(#ecarxGradient)"/>
+  <rect x="95" y="130" width="15" height="15" fill="url(#ecarxGradient)"/>
+
+  <!-- Letter A -->
+  <path d="M135 145 L145 60 L155 60 L165 145 L175 145 L170 125 L160 85 L150 125 L140 145 Z" fill="white"/>
+  <rect x="150" y="95" width="10" height="2" fill="white"/>
+
+  <!-- Letter R -->
+  <rect x="185" y="60" width="15" height="80" fill="white"/>
+  <circle cx="192.5" cy="85" r="12" fill="white"/>
+  <rect x="185" y="60" width="15" height="15" fill="white"/>
+  <path d="M197.5 85 L210 145 L220 145 L207.5 97 Z" fill="white"/>
+  <rect x="197.5" y="85" width="12.5" height="2" fill="url(#ecarxGradient)"/>
+
+  <!-- Letter X -->
+  <path d="M20 60 L35 85 L50 60 L60 60 L42.5 90 L60 120 L50 120 L35 95 L20 120 L10 120 L27.5 90 L10 60 Z" fill="white"/>
+</svg></content>
+<parameter name="filePath">e:\dotnetPortforlio\MyPortforlioWebsite\wwwroot\images\ecarx-logo.svg

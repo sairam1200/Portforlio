@@ -1,0 +1,51 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sparlyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10B981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="95" fill="url(#sparlyGradient)" stroke="#fff" stroke-width="2"/>
+
+  <!-- Sparkle/star shape -->
+  <g transform="translate(100,100)">
+    <!-- Main star points -->
+    <path d="M0,-35 L8,-12 L35,-12 L15,8 L23,35 L0,18 L-23,35 L-15,8 L-35,-12 L-8,-12 Z" fill="white"/>
+
+    <!-- Inner highlight -->
+    <circle cx="0" cy="0" r="8" fill="url(#sparlyGradient)"/>
+    <circle cx="0" cy="0" r="4" fill="white"/>
+  </g>
+
+  <!-- Letter S -->
+  <path d="M45 140 Q45 125 60 125 L75 125 Q85 125 85 140 Q85 150 75 150 L55 150 Q45 150 45 165 Q45 175 55 175 L80 175 Q90 175 90 165" fill="white"/>
+  <rect x="45" y="140" width="15" height="10" fill="url(#sparlyGradient)"/>
+  <rect x="75" y="165" width="15" height="10" fill="url(#sparlyGradient)"/>
+
+  <!-- Letter P -->
+  <rect x="100" y="125" width="10" height="50" fill="white"/>
+  <rect x="100" y="125" width="25" height="10" fill="white"/>
+  <rect x="100" y="135" width="25" height="10" fill="white"/>
+  <rect x="115" y="125" width="10" height="20" fill="white"/>
+
+  <!-- Letter A -->
+  <path d="M135 175 L142.5 125 L150 125 L157.5 175 L165 175 L160 155 L152.5 140 L145 155 L137.5 175 Z" fill="white"/>
+  <rect x="147.5" y="145" width="5" height="2" fill="white"/>
+
+  <!-- Letter R -->
+  <rect x="175" y="125" width="10" height="50" fill="white"/>
+  <circle cx="180" cy="140" r="7" fill="white"/>
+  <rect x="175" y="125" width="10" height="10" fill="white"/>
+  <path d="M182 140 L190 175 L195 175 L187 147 Z" fill="white"/>
+  <rect x="182" y="140" width="8" height="2" fill="url(#sparlyGradient)"/>
+
+  <!-- Letter L -->
+  <rect x="205" y="125" width="10" height="50" fill="white"/>
+  <rect x="205" y="165" width="20" height="10" fill="white"/>
+
+  <!-- Letter Y -->
+  <path d="M225 125 L230 140 L235 125 L240 125 L237.5 135 L235 145 L232.5 135 L230 175 L225 175 L227.5 145 L230 135 L232.5 145 L235 135 L237.5 125 Z" fill="white"/>
+</svg></content>
+<parameter name="filePath">e:\dotnetPortforlio\MyPortforlioWebsite\wwwroot\images\sparly-logo.svg

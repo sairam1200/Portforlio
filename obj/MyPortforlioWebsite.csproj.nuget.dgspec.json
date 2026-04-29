@@ -47,6 +47,10 @@
             "OpenAI": {
               "target": "Package",
               "version": "[2.10.0, )"
+            },
+            "System.ClientModel": {
+              "target": "Package",
+              "version": "[1.10.0, )"
             }
           },
           "imports": [
