@@ -31,7 +31,7 @@ namespace YourApp.Controllers
             client.DefaultRequestHeaders.Add("ngrok-skip-browser-warning", "true");
             client.DefaultRequestHeaders.Add("User-Agent", "MyPortfolioApp");
 
-            var response = await client.PostAsJsonAsync(
+            var response = await _httpClient.PostAsJsonAsync(
                 "https://almost-backtrack-drapery.ngrok-free.dev/api/chat",
                 ollamaRequest
             );
